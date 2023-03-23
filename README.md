@@ -39,7 +39,7 @@ We have records of 30000 customers. Below are the description of all features:
 
 * **AGE:** Age in years*
 
-#**History of past payment**
+# **History of past payment**
 
 **We tracked the past monthly payment records from April to September, 2005.The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.**
 
