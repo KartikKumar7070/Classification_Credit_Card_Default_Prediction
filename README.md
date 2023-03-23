@@ -1,6 +1,7 @@
 # Credit-Card-Default-Prediction-Project
-Predicting whether a customer will default on his/her credit card
-# **Project Summary -**
+![image](https://user-images.githubusercontent.com/114734243/227272617-c0dc1c89-748e-44e9-a694-476ec37f8616.png)
+
+# **Project Summary :**
 
 Today’s world credit cards have become a lifeline to a lot of people so banks provide us with credit cards
 A credit card is a type of payment card in which charges are made against a line of credit instead of the account holder’s cash
@@ -16,15 +17,9 @@ aimed at predicting the case of customers default payments in Taiwan accuracy of
 Defaulter prediction
 Our Project is to Investigate patterns and explanations in the context and convey the results in a dynamic and visual manner.
 
-**Approach:**
-To perform Exploratory Data Analysis on CREDIT CARD FRAUD PREDICTION , we imported Python libraries like
-Numpy, Pandas, Matplotlib, Seaborn and Plot to display the analysis dataset and also imported from Sk learn preprocessing
-data using standard scaler, and importing logistic regression,  Random Forest Classifier, XG boost classifier
-for predicting Defaulter getting accuracy for finding CREDIT CARD FRAUD PREDICTION and in Graphical form
-through Bar Plot, count plot, Histogram and Heatmap etc. Statistical graphics and other Data visualization methods are used
-to summarize their main characteristics of “CREDIT CARD FRAUD PREDICTION”.
+![image](https://user-images.githubusercontent.com/114734243/227273179-a295696a-f50e-4ff8-ab5a-ed5f16fecf11.png)
 
-**Features Description**
+## **Features Description**
 We have records of 30000 customers. Below are the description of all features:
 
 * **ID:** ID of each client*
@@ -39,7 +34,7 @@ We have records of 30000 customers. Below are the description of all features:
 
 * **AGE:** Age in years*
 
-# **History of past payment**
+ **History of past payment**
 
 **We tracked the past monthly payment records from April to September, 2005.The measurement scale for the repayment status is: -1 = pay duly; 1 = payment delay for one month; 2 = payment delay for two months; . . .; 8 = payment delay for eight months; 9 = payment delay for nine months and above.**
 
@@ -85,13 +80,31 @@ We have records of 30000 customers. Below are the description of all features:
 
 **default.payment.next.month:** Default payment (1=yes, 0=no)
 
+## **Approach:**
+To perform **Exploratory Data Analysis** on CREDIT CARD FRAUD PREDICTION , we imported Python libraries like
+Numpy, **Pandas**, **Matplotlib**, **Seaborn** and Plot to display the analysis dataset and also imported from Sk learn preprocessing
+data using standard scaler, and importing logistic regression,  **Random Forest Classifier**, **XG boost** classifier
+for predicting Defaulter getting accuracy for finding CREDIT CARD FRAUD PREDICTION and in Graphical form
+through Bar Plot, count plot, Histogram and Heatmap etc. Statistical graphics and other Data visualization methods are used
+to summarize their main characteristics of “CREDIT CARD FRAUD PREDICTION”.
+![image](https://user-images.githubusercontent.com/114734243/227273953-64e0eda3-15cf-48eb-9163-9c2bdfa0cf11.png)
+
+![image](https://user-images.githubusercontent.com/114734243/227273631-55876a7f-d57e-4767-8feb-8369595ec7e2.png)
+
+![image](https://user-images.githubusercontent.com/114734243/227274145-118d0bf7-2e81-4b1a-96e5-c5a1935b8b45.png)
+
+![image](https://user-images.githubusercontent.com/114734243/227274200-45056430-c954-4c7f-9b31-22810d2a1a04.png)
+
+
+
+
 # **Conclusion**
 We have predicted the defaulters using multiple models in this project.We have used Logistical regression, Random forest, XGBoost,Decision Tree, SVM. We have also used GridSearchCV to tune hyperparameters.
 
-#### * **From all baseline model, Random forest classifier shows highest test accuracy, F1 score and AUC.**
-#### * **Baseline model of Random forest and decision tree shows huge difference in train and test accuracy which shows overfitting.**
-#### * **The important metric to compare all the algorithms in this case is ‘Recall’. As the company can’t afford to predict False negative i.e. predict defaulter as a non defaulter. Since, company is one, who will give to money to the customers,if, for any reason giving money to defaulter is gaining more risk to getting the investment back. Hence, here identifying false negative is important.**
-#### *  **We have also seen the class imbalance so we did SMOTE to handle imbalance.**
-#### *  **We did train test split and stratify the target variable**.
-#### * **After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87.10% and AUC is 0.873.**
-#### * **Cross validation and hyperparameter tunning certainly reduces chances of overfitting and also increases performance of model.**
+### 1. **From all baseline model, Random forest classifier shows highest test accuracy, F1 score and AUC.**
+### 2. **Baseline model of Random forest and decision tree shows huge difference in train and test accuracy which shows overfitting.**
+### 3. **The important metric to compare all the algorithms in this case is ‘Recall’. As the company can’t afford to predict False negative i.e. predict defaulter as a non defaulter. Since, company is one, who will give to money to the customers,if, for any reason giving money to defaulter is gaining more risk to getting the investment back. Hence, here identifying false negative is important.**
+### 4. **We have also seen the class imbalance so we did SMOTE to handle imbalance.**
+### 5. **We did train test split and stratify the target variable**.
+### 6. **After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87.10% and AUC is 0.873.**
+### 7. **Cross validation and hyperparameter tunning certainly reduces chances of overfitting and also increases performance of model.**
