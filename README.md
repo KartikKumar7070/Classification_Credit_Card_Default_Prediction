@@ -99,7 +99,7 @@ to summarize their main characteristics of “CREDIT CARD FRAUD PREDICTION”.
 
 
 # **Conclusion**
-We have predicted the defaulters using multiple models in this project.We have used Logistical regression, Random forest, XGBoost,Decision Tree, SVM. We have also used GridSearchCV to tune hyperparameters.
+I have predicted the defaulters using multiple models in this project.We have used Logistical regression, Random forest, XGBoost,Decision Tree, SVM. We have also used GridSearchCV to tune hyperparameters.
 
 ### 1. **From all baseline model, Random forest classifier shows highest test accuracy, F1 score and AUC.**
 ### 2. **Baseline model of Random forest and decision tree shows huge difference in train and test accuracy which shows overfitting.**
